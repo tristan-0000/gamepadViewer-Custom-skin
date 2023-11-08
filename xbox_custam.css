@@ -1,0 +1,240 @@
+body {
+	margin: 0px auto;
+	overflow: hidden;
+}
+.controller.xbox {
+    background: url("https://i.imgur.com/xYChvV4.png");
+    background-repeat: no-repeat ;
+    background-position : center center ;
+    height: 80px;
+    width: 780px;
+}
+/*スティック周り*/
+.xbox .sticks {
+    position: absolute;
+    width: 380px;
+    height: 50px;
+    top: 20px;
+    left: 185px;
+}
+.xbox .stick {
+    position: absolute;
+    background-image: none;
+    background-color : #111111 ;
+    background-position: -85px 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transform : scale(0.5 0.5);
+    opacity: 10;
+    }
+
+ .xbox .stick.pressed {
+    background-position: 0 0;
+    background-color : #CCCCCC ;
+}
+
+    
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+.xbox .stick.right {
+    top: 0px;
+    left: 290px;
+}
+/*トリガー*/
+.xbox .triggers {
+    width: 728px;
+    height: 10px;
+    position: absolute;
+    top : 10px ;
+    left: 26px;
+}
+
+.xbox .trigger {
+    width: 118px;
+    height: 19px;
+    background-image: none ;
+    background-color: #EEEEEE ; 
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    background-position: 0px 0px;
+}
+
+.xbox .trigger.right {
+	left 400px ;
+	background-position: 450px 0px;
+}
+/*バンパー周り*/
+
+.xbox .bumpers {
+    position: absolute;
+    width: 728px;
+    height: 10px;
+    left: 26px;
+    top: 40px;
+}
+
+.xbox .bumper {
+    width: 118px;
+    height: 18px;
+    background-image: none;
+    background-color: #EEEEEE ; 
+    border-radius: 3px;
+
+    opacity: 0;
+}
+
+.xbox .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+    float: left;
+}
+
+.xbox .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/*ボタン周り*/
+.xbox .abxy {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    top: 10px;
+    left: 500px;
+}
+
+.xbox .button {
+    position: absolute;
+    background: none ;
+    background-color : #666666 ;
+    width: 20px;
+    height: 20px;
+}
+
+.xbox .button.pressed {
+    margin-top: 5px;
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.xbox .a {
+    background-position: 0 0;
+    background-color : #blue ;
+    border-radius: 10px;
+    top: 40px;
+    left: 65px;
+}
+
+.xbox .b {
+    background-position: -24px 0;
+    background-color : #red ;
+    border-radius: 10px;
+    top: 20px;
+    right: 15px;
+}
+
+.xbox .x {
+    background-position: -48px 0;
+    background-color : #green ;
+    border-radius: 10px;
+    top: 20px;
+    left: 45px;
+}
+
+.xbox .y {
+    background-position: 24px 0;
+    background-color : #yellow ;
+    border-radius: 10px;
+    left: 65px;
+    top: 0px;
+}
+
+/*十字キー周り*/
+.xbox .dpad {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 250px;
+}
+
+.xbox .face {
+    background-image: none;
+    background-color : #EEEEEE ;
+    position: absolute;
+    opacity: 0;
+}
+
+.xbox .face.pressed {
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.xbox .face.up {
+    background-position: 34px 0;
+    left: 26px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+}
+
+.xbox .face.down {
+    left: 26px;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.xbox .face.left {
+    background-position: 0 -93px;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    left: 6px;
+}
+
+.xbox .face.right {
+    background-position: 0 -57px;
+    width: 18px;
+    height: 18px;
+    top: 20px;
+    right: -3px;
+}
+/*スタートボタン*/
+.xbox .arrows {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 10px;
+    left: 353px;
+}
+
+.xbox .back, .xbox .start {
+background-image : none ;
+    background-color:#FFFFFF ;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    opacity: 1;
+}
+
+.xbox .back {
+    left : 5px ;
+}
+
+.xbox .start {
+    left : 5px ;
+}
+
