@@ -1,4 +1,4 @@
-# gamepadViewer-Customkin
+# gamepadViewer-Custom-skin
 ゲームパッドビューアーをカスタマイズする外部CSS
 
 このCSSはゲームパッドビューアーの操作表示に特化したものです。
