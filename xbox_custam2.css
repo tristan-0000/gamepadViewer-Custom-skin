@@ -1,18 +1,14 @@
 body {
 	margin: 0px auto;
-	overflow: hidden;
 }
 .controller.xbox {
     background: url("https://i.imgur.com/0wGarZB.png");
     height: 200px;
     width: 1700px;
-    /*    margin-left: -375px;
-        margin-top: -285px;*/
 }
-.xbox.disconnected {
-    background: url("https://i.imgur.com/5SSxhHg.png");
-}
+
 /*stick*/
+
 .xbox .sticks {
     position: absolute;
     width: 1000px;
