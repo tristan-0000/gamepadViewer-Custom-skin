@@ -22,3 +22,6 @@ OBSに取り込んだ際、プロパティのカスタムスタイルシート�
 
 ゲームパッドビューアー提供元
 https://gamepadviewer.com/
+
+使用感などは下の動画を参照のこと。
+https://youtu.be/-YXpxBbYLHQ?si=lu-Q7Dtz0llQlYX5
