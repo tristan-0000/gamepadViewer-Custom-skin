@@ -13,8 +13,11 @@ https://app.gpv.gg/?p=1&editcss=https%3A%2F%2Ftristan-0000.github.io%2FgamepadVi
 幅1700、高さ200
 https://gamepadviewer.com/?p=1&editcss=https%3A%2F%2Ftristan-0000.github.io%2FgamepadViewer-Custom-skin%2Fxbox_custam2.css
 
+1700*200改良版
+https://app.gpv.gg/?p=1&editcss=https%3A%2F%2Ftristan-0000.github.io%2FgamepadViewer-Custom-skin%2Fxbox_custom3.css
+
 幅と高さを入力しないと多少の表示ズレが出てくると思いますので、指定は行ってください。
-OBSに取り込んだ際、プロパティのカスタムスタイルシートのコードは消してください。
+表示されない場合はプロパティのカスタムスタイルシートのコードを消してみてください。
 
 更に自作したい方はコードとにらめっこをお願いします。
 
